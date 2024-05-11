@@ -2,13 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wikipedia Starter</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Wikipedia App</title>
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
   </head>
   <body>
-    <h1>wiki starter</h1>
+    <main class="wiki">
+      <div class="container">
+        <img
+          src="./wiki-logo.png"
+          alt="wiki logo"
+        />
+
+        <h3>Search Wikipedia</h3>
+
+        <form
+          action=""
+          class="form"
+        >
+          <input
+            type="text"
+            class="form-input"
+          />
+          <button
+            type="submit"
+            class="submit-btn"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+
+      <!-- Results div -->
+      <div class="results">
+        <div class="articles">
+          <article>
+            <a href="">
+              <h4>Apple Iphones</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo minima perspiciatis
+                est asperiores quia iure officiis aperiam vel ipsam obcaecati!
+              </p>
+            </a>
+          </article>
+        </div>
+      </div>
+    </main>
     <script src="./app.js"></script>
   </body>
 </html>
